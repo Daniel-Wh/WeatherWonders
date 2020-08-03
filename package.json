@@ -18,6 +18,7 @@
   "devDependencies": {
     "electron": "^9.1.2",
     "electron-packager": "^14.2.1",
-    "nodemon": "^2.0.3"
+    "nodemon": "^2.0.3",
+    "wallpaper": "^4.4.1"
   }
 }
