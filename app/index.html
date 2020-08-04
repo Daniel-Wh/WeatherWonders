@@ -2,6 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="script-src 'self' 'unsafe-inline'"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/style.css" />
@@ -14,9 +18,35 @@
     <div class="row center">
       <h2 class="centered-text">How it works</h2>
       <p>
-        Enter your zip code every hour. Weather Up will dynamically adjust your
-        background image based on the current weather of your location
+        Enter your zip code. Every hour Weather Up will dynamically adjust your
+        desktop image based on the current weather of your location
       </p>
     </div>
+    <div class="zip-code-input row">
+      <form action="">
+        <input
+          type="text"
+          name="zip-code"
+          id="zip-code"
+          placeholder="Enter your zipcode"
+        />
+      </form>
+    </div>
+    <nav id="nav">
+      <ul>
+        <li>
+          <i class="fas fa-atlas"></i>
+          <p>Home</p>
+        </li>
+        <li>
+          <i class="fas fa-info"></i>
+          <p>Picture info</p>
+        </li>
+        <li>
+          <i class="fas fa-cog"></i>
+          <p>Settings</p>
+        </li>
+      </ul>
+    </nav>
   </body>
 </html>
