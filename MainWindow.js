@@ -4,7 +4,7 @@ class MainWIndow extends BrowserWindow {
   constructor(file, isDev) {
     super({
       title: "Weather Wonders",
-      width: isDev ? 800 : 355,
+      width: isDev ? 800 : 360,
       height: 600,
       icon: "./assets/icons/icon.png",
       show: false,
