@@ -51,14 +51,32 @@ h1:after {
   margin-top: 40px;
 }
 
-.row input {
+.zip-code-input {
   width: 60%;
   margin-left: 20%;
   height: 36px;
   border-radius: 5px;
   outline: none;
+  border: none;
   text-align: center;
   font-size: 115%;
+}
+
+.form-submit {
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 30px;
+  height: 36px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  text-align: center;
+  color: #000;
+  background-color: #f4f4f4;
+}
+
+.form-submit:hover {
+  cursor: pointer;
 }
 /* ************************* */
 /* Navigation                */
